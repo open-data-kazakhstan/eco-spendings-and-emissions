@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 
 # Read kazpop.csv
-data = pd.read_csv(r'C:\Users\USER\Desktop\Eco_project\Eco_am\data\unpiv.csv')
+data = pd.read_csv(r'C:\Users\USER\Desktop\Eco_project\eco-spendings-and-emissions\Eco_am\data\unpiv.csv')
 
 # Group the data by 'Область' (area names)
 grouped_data = data.groupby('Регион')
@@ -53,4 +53,4 @@ combined_df = pd.concat([data, predictions_df], ignore_index=True)
 df_sorted = combined_df.sort_values(by=['Год'])
 
 # Export to csv_final.csv
-df_sorted.to_csv(r'C:\Users\USER\Desktop\Eco_project\Eco_am\data\fin_eco_am.csv')
+df_sorted.to_csv(r'C:\Users\USER\Desktop\Eco_project\eco-spendings-and-emissions\Eco_am\data\fin_eco_am.csv')

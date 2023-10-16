@@ -4,8 +4,8 @@ from matplotlib.animation import FuncAnimation
 import numpy as np
 
 # Load your two datasets into Pandas DataFrames with UTF-8 encoding
-file1 = r"C:\Users\USER\Desktop\Eco_project\Eco_am\data\eco_rank.csv"
-file2 = r'C:\Users\USER\Desktop\Eco_project\Eco_drop\data\eco_drop_rank.csv'
+file1 = r"C:\Users\USER\Desktop\Eco_project\eco-spendings-and-emissions\Eco_am\data\eco_rank.csv"
+file2 = r"C:\Users\USER\Desktop\Eco_project\eco-spendings-and-emissions\Eco_drop\scripts\eco_drop_rank.py"
 df1 = pd.read_csv(file1, encoding='utf-8')
 df2 = pd.read_csv(file2, encoding='utf-8')
 
