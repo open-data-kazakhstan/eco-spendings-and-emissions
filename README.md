@@ -46,12 +46,11 @@ We have processed the source data to make it normalized and derived  several agg
 * `data/fin_eco_am.csv` - expanded main dataset which predicts amount of expenses on ecology from 2023 to 2050
 * `data/eco_drop_regr.csv` - expanded main dataset which predicts sourсe data for a negative emissions from 2023 to 2050
 * `datapackage.json` - conatins all of the key information about our dataset
-
+* `Eco_comb\csv_comb.csv` - contains combined data for final animated plot
 ## Scripts
-* `scripts/eco_rank.py` - uses main dataset and expands it to 8 steps to make animation smoother
-* `scripts/eco_drop_rank.py` - uses main dataset and expands it to 8 steps to make animation smoother
 * `scripts/eco_anim.py` - uses matplotlib to create an infographic about spending on ecology
 * `scripts/eco_drop_anim.py` - uses matplotlib to create an infographic about amount of negative emissions
+* `Eco_comb\animate_comb.py` - uses combined data to create a final infographic
 * `scripts/datapack.py` - creating datapckage.json file that conatinsall meatadata
 
 ## License
