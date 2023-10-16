@@ -2,7 +2,7 @@
     "profile": "tabular-data-package",
     "resources": [
         {
-            "path": "Desktop\\Eco_project\\Eco_am\\data\\unpiv.csv",
+            "path": "Desktop\\Eco_project\\eco-spendings-and-emissions\\Eco_am\\data\\unpiv.csv",
             "profile": "tabular-data-resource",
             "name": "unpiv",
             "format": "csv",
@@ -32,7 +32,7 @@
             }
         },
         {
-            "path": "Desktop\\Eco_project\\Eco_am\\data\\fin_eco_am.csv",
+            "path": "Desktop\\Eco_project\\eco-spendings-and-emissions\\Eco_am\\data\\fin_eco_am.csv",
             "profile": "tabular-data-resource",
             "name": "fin_eco_am",
             "format": "csv",
@@ -67,107 +67,7 @@
             }
         },
         {
-            "path": "Desktop\\Eco_project\\Eco_am\\data\\eco_rank.csv",
-            "profile": "tabular-data-resource",
-            "name": "eco_rank",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "field1",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Регион",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Год",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Выделенный бюджет на защиту экологии",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Unnamed: 0",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "index",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "ranks",
-                        "type": "integer",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ]
-            }
-        },
-        {
-            "path": "Desktop\\Eco_project\\Eco_drop\\data\\eco_drop_rank.csv",
-            "profile": "tabular-data-resource",
-            "name": "eco_drop_rank",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "field1",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Регион",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Год",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Выброс загрезнений(тыс.тонн)",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Unnamed: 0",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "index",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "ranks",
-                        "type": "integer",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ]
-            }
-        },
-        {
-            "path": "Desktop\\Eco_project\\Eco_drop\\data\\eco_drop_regr.csv",
+            "path": "Desktop\\Eco_project\\eco-spendings-and-emissions\\Eco_drop\\data\\eco_drop_regr.csv",
             "profile": "tabular-data-resource",
             "name": "eco_drop_regr",
             "format": "csv",
@@ -191,7 +91,7 @@
                         "format": "default"
                     },
                     {
-                        "name": "Выброс загрезнений(тыс.тонн)",
+                        "name": "Выброс загрязнений(тыс.тонн)",
                         "type": "number",
                         "format": "default"
                     }
@@ -202,7 +102,7 @@
             }
         },
         {
-            "path": "Desktop\\Eco_project\\Eco_drop\\data\\unpiv_part2.csv",
+            "path": "Desktop\\Eco_project\\eco-spendings-and-emissions\\Eco_drop\\data\\unpiv_part2.csv",
             "profile": "tabular-data-resource",
             "name": "unpiv_part2",
             "format": "csv",
@@ -221,7 +121,47 @@
                         "format": "default"
                     },
                     {
-                        "name": "Выброс загрезнений(тыс.тонн)",
+                        "name": "Выброс загрязнений(тыс.тонн)",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "Desktop\\Eco_project\\eco-spendings-and-emissions\\Eco_comb\\csv_comb.csv",
+            "profile": "tabular-data-resource",
+            "name": "csv_comb",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Unnamed: 0",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Регион",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Год",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Выброс загрязнений(тыс.тонн)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Выделенный бюджет на защиту экологии",
                         "type": "number",
                         "format": "default"
                     }

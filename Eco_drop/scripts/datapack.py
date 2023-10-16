@@ -8,8 +8,6 @@ package = Package(encoding='utf-8')
 csv_files = [
     r'C:\Users\USER\Desktop\Eco_project\eco-spendings-and-emissions\Eco_am\data\unpiv.csv',
     r'C:\Users\USER\Desktop\Eco_project\eco-spendings-and-emissions\Eco_am\data\fin_eco_am.csv',
-    r'C:\Users\USER\Desktop\Eco_project\eco-spendings-and-emissions\Eco_am\data\eco_rank.csv',
-    r'C:\Users\USER\Desktop\Eco_project\eco-spendings-and-emissions\Eco_drop\data\eco_drop_rank.csv',
     r'C:\Users\USER\Desktop\Eco_project\eco-spendings-and-emissions\Eco_drop\data\eco_drop_regr.csv',
     r'C:\Users\USER\Desktop\Eco_project\eco-spendings-and-emissions\Eco_drop\data\unpiv_part2.csv',
     r'C:\Users\USER\Desktop\Eco_project\eco-spendings-and-emissions\Eco_comb\csv_comb.csv'
@@ -23,7 +21,7 @@ for csv_file in csv_files:
 package.commit()
 
 # Define the path to the output JSON file
-output_json_path = r"C:\Users\USER\Desktop\Eco_project\datapackage.json"
+output_json_path = r"C:\Users\USER\Desktop\Eco_project\eco-spendings-and-emissions\datapackage.json"
 
 # Serialize the data package's metadata to a JSON file with proper encoding
 with open(output_json_path, 'w', encoding='utf-8') as json_file:
